@@ -1,0 +1,21 @@
+A)
+a) The Local Optima are some peaks that a higher than their surrounding, while, they probably be many points and not the highest point. 
+The Global Optimum is the highest point entirely (the big circle in the middle), where indicates the summit of the Mount Rainer.
+
+b) Naive Methon: From my random start point, I will search the steepest direction, which might almost be a perpendiculat to the height. Then I will move from my current position to the steepest direction, and then repeat this searching until I reach some peak without any other steep direction.
+###################################################################################
+B)
+a) The objection function is 2x+4y;
+	Gradient: Partial derivative respect to x = 2
+			Partial derivative respect to y = 4
+
+b) (x, y) = (2, 6)
+	x = 2 + 2G
+	y = 6 + 4G
+then, 4(2 + 2G) + 6(6 + 4G) <= 120   (1)
+	2(2 + 2G) + 6(6 + 4G) <= 72     (2)
+				6 + 4G <= 10     (3)
+solve G for each inequality: (1): G <= 19/8
+					  (2): G <= 8/7
+					  (3): G <= 1
+We will go against y <= 10 in the direction merely after moving 1 unit from the point (2, 6).
